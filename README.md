@@ -17,3 +17,5 @@ for ex :
 ```
   <a href="index.jsp?theLocale=fr_FR"><img src="images/001-france.png" alt="france" title="FR"></a>
 ```
+
+![english page](https://github.com/EngAhmedSalah/JSTL-internationalization-Form-i18n-/blob/master/images/english.PNG)
