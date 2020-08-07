@@ -1,0 +1,83 @@
+body
+{
+    font-family: 'Roboto', sans-serif;
+    background: url("../images/mountains-1412683.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main-section
+{
+    margin: 0 auto;
+    margin-top: 130px;
+    padding: 0;
+}
+.modal-content
+{
+    background-color: #5e5e5e;
+    opacity: .8;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+.user-img
+{
+    margin-top: -70px;
+    margin-bottom: 45px;
+}
+.form-group
+{
+    margin-bottom: 25px;
+}
+.form-group input
+{
+   height: 45px;
+   border-radius: 5px;
+   border: 0;
+   font-size: 18px;
+   letter-spacing: 2px;
+   padding-left: 54px;
+}
+#email::before , #firstName::before , #password::before
+{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 1000; 
+    position: absolute;
+    left: 26px;
+    padding-top: 11px;
+    color: #555e60;
+}
+
+#password::before
+{
+    content: "\f023";
+}
+#email::before
+{
+    content: "\f1fa";
+}
+
+#firstName::before
+{
+    content: "\f007";
+}
+
+.form-input button
+{
+    width: 40%;
+    margin: 5px 0 25px;
+    opacity: 1;
+}
+
+.btn-light
+{
+    background-color: #1d80b6;
+    color: white;
+    font-size: 19px;
+    border-radius: 5px;
+    padding: 7px 14px;
+    border: 1px solid #daf1ff;
+}
+.btn-light:hover
+{
+    background-color: #0d354b;
+    color: white;
+}
